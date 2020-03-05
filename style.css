@@ -1,0 +1,29 @@
+@inport url(https://marksheet.io/css/reset.css);
+
+/*Контенер для содержимого страницы*/
+.container {
+    width: 100%
+    max-width: 1024px;/*максимаоьная ширина может иметь другое значение*/
+    padding 0 15px;
+    margin: 0 auto;
+}
+/*Главное меню в шапке*/
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;/*обозначаем,что это flex-контенер*/
+}
+/*Главное меню в подвале*/
+footer>nav{
+    display:flex;/*обозначаем, что это flex-онтенер*/
+}
+/*Предустановки для разметки flex-элементов:
+rom - горизонтально
+column - вертикально*/
+.rom{
+    flex-direction: row;
+}
+.column{
+    flex-direction: column;
+}
