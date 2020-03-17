@@ -3,7 +3,7 @@ body {
     margin: 10px;
 }
 div[class*='col-']{
-    outline: 2px solid pinr pinkactive
+    outline: 2px solid pink;
     margin: 10px;
 }
 header {

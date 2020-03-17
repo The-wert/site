@@ -41,7 +41,7 @@ nav ul {
 /* Гибкая верстка */
 img{
     width: 100%;
-    max-width: 100%
+    max-width: 100%;
 }
 
 .col-1{
@@ -76,6 +76,9 @@ img{
 /* Шапка сайта */
 header {
     flex: 0 0 auto;
+    background-color: #000;
+    height: 100px;
+    color: #fff;
 }
 
 
@@ -83,6 +86,7 @@ header {
 main {
     display: flex;
     flex: 1 0 auto;
+    background-color: #777;
 }
 main > div.container {
     flex: 1 0 auto;
@@ -98,4 +102,29 @@ aside {
 /* Подвал сайта */
 footer {
     flex: 0 0 auto;
+    background-color: #000;
+    height: 200px;
+}
+
+/* Высота*/
+header > div.conteiner{
+    height: 100%;
+    align-items: center;
+}
+
+header ul li{
+    margin-right: 20px
+}
+
+main > div.container{
+    background-color: #fff;
+}
+
+footer > div.container{
+    height: 100%;
+    padding: 10px 0;
+}
+
+foter nav ul{
+   margin-right: 30px
 }
