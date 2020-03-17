@@ -80,7 +80,7 @@ header {
     color: #fff;
 }
 
-header > div.conteiner {
+header > div.container {
     height: 100%;
     align-items: center;
 }
@@ -121,6 +121,5 @@ footer > div.container {
 }
 
 foоter nav ul {
-   margin-right: 30px;
+  margin-right: 30px;
 }
-
