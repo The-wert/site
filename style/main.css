@@ -81,6 +81,14 @@ header {
     color: #fff;
 }
 
+header > div.conteiner {
+    height: 100%;
+    align-items: center;
+}
+
+header ul li {
+    margin-right: 20px
+}
 
 /* Основное содержимое */
 main {
@@ -107,16 +115,6 @@ footer {
     height: 200px;
 }
 
-/* Высота*/
-header > div.conteiner {
-    height: 100%;
-    align-items: center;
-}
-
-header ul li {
-    margin-right: 20px
-}
-
 footer > div.container {
     height: 100%;
     padding: 10px 0;
@@ -125,3 +123,4 @@ footer > div.container {
 foоter nav ul {
    margin-right: 30px
 }
+
