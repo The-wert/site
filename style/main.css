@@ -39,37 +39,37 @@ nav ul {
 
 
 /* Гибкая верстка */
-img{
+img {
     width: 100%;
     max-width: 100%;
 }
 
-.col-1{
+.col-1 {
     flex: 1;
 }
 
-.col-2{
+.col-2 {
     flex: 2;
 }
 
-.col-3{
+.col-3 {
     flex: 3;
 }
 
-.col-4{
+.col-4 {
     flex: 4;
 }
 
-.col-5{
+.col-5 {
     flex: 5;
 }
 
-.col-6{
+.col-6 {
     flex: 6;
 }
 
 @media(max-width: 800px){
-    .conteiner{
+    .conteiner {
         flex-direction: column;
     }
 }
@@ -90,6 +90,7 @@ main {
 }
 main > div.container {
     flex: 1 0 auto;
+    background-color: #fff;
 }
 section {
     flex: 3 0 auto;
@@ -107,24 +108,20 @@ footer {
 }
 
 /* Высота*/
-header > div.conteiner{
+header > div.conteiner {
     height: 100%;
     align-items: center;
 }
 
-header ul li{
+header ul li {
     margin-right: 20px
 }
 
-main > div.container{
-    background-color: #fff;
-}
-
-footer > div.container{
+footer > div.container {
     height: 100%;
     padding: 10px 0;
 }
 
-foter nav ul{
+foоter nav ul {
    margin-right: 30px
 }
