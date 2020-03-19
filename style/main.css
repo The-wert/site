@@ -94,6 +94,9 @@ main {
     display: flex;
     flex: 1 0 auto;
     background-color: #777;
+    background-image: image: url(/site/images/backrounds.jpg);
+    background-position: center center;
+    background-size: cover;
 }
 main > div.container {
     flex: 1 0 auto;
@@ -122,4 +125,22 @@ footer > div.container {
 
 footer nav ul {
     margin-right: 30px;
+}
+
+button {
+    height: 50px;
+    /*width: 100px;*/
+    background-color: #999;
+    border-radius: 5px;
+}
+
+header a,
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header a:hover,
+footer a:hover {
+    text-decoration: underline
 }
