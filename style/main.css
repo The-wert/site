@@ -27,6 +27,7 @@ body {
 	height: 50px;
 	/*width: 100px;*/
     background-color: #666;
+    color:;
     border-radius: 5px;
 	padding: 20px 30px;
 	margin: 10px 20px;
@@ -52,6 +53,20 @@ h3 {
 	padding: .8em 0 .8em 0;
 }
 
+h4 {
+	font-size: 1.8em;
+	padding: .8em 0 .6em 0;
+}
+h5 {
+	font-size: 1.6em;
+	padding: .8em 0 .6em 0;
+}
+
+h6 {
+	font-size: 1.4em;
+	padding: .8em 0 .6em 0;
+}
+
 /* Предустановки */
 .row {
     display: flex;
@@ -73,28 +88,28 @@ img {
     width: 100%;
     max-width: 100%;
 }
-
-.col-1 {
+.col-1{
+    display: flex;
     flex: 1;
 }
-
-.col-2 {
+.col-2{
+    display: flex;
     flex: 2;
 }
-
-.col-3 {
+.col-3{
+    display: flex;
     flex: 3;
 }
-
-.col-4 {
+.col-4{
+    display: flex;
     flex: 4;
 }
-
-.col-5 {
+.col-5{
+    display: flex;
     flex: 5;
 }
-
-.col-6 {
+.col-6{
+    display: flex;
     flex: 6;
 }
 
@@ -102,6 +117,12 @@ img {
     .conteiner {
         flex-direction: column;
     }
+	.moon-toor {
+		flex-direction: column-reverse;
+	}
+	.cont-position {
+		flex-direction: column;
+	}
 }
 /* Шапка сайта */
 header {
@@ -160,13 +181,6 @@ footer nav ul {
 
 footer li {
 	line-height: 2em;
-}
-
-button {
-    height: 50px;
-    /*width: 100px;*/
-    background-color: #999;
-    border-radius: 5px;
 }
 
 header a,
