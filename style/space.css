@@ -46,7 +46,7 @@ strong {
 	text-decoration: none;
 	text-transform: uppercase;
 	vertical-align: top;
-	color: #22222;
+	color: #222222;
 	border-radius: 50px;
 }
 .btn::after {
@@ -61,14 +61,14 @@ strong {
 	background-position: 0 0;
 }
 .btn-yellow {
-	background-color: #feca30;
+	background-color: #FFD700;
 }
 .btn-yellow:hover {
-	background-color: #fff;
+	background-color: #FFFFFF;
 }
 .btn-grey {
 	width: 215px;
-	color: #fff;
+	color: #FFFFFF;
 	background-color: #222;
 }
 .btn-grey::after {
@@ -79,7 +79,7 @@ strong {
 }
 .btn-grey:hover {
 	width: 215px;
-	color: #fff;
+	color: #FFFFFF;
 	background-color: #222;
 }
 /*Гибкая верстка*/
@@ -177,7 +177,7 @@ header li a {
 	font-weight: bold;
 	font-size: 3.2em;
 	line-height: 50px;
-	color: #fff;
+	color: #FFFFFF;
 }
 .moon-tour p {
 	margin-bottom: 50px;
@@ -207,7 +207,7 @@ header li a {
 	flex: 1 0 auto;
 	padding: 55px 0 85px 0;
 	background-color: #000;
-	color: #fff;
+	color: #FFFFFF;
 }
 .advantages div {
 	justify-content: space-around;
@@ -269,21 +269,21 @@ footer {
     flex: 0 0 auto;
 	padding: 85px 0 85px 0;
 	background-color: #000;
-	color: #fff;
+	color: #FFFFFF;
 }
 .copyright {
-	color: #DCDCDC;
+	color: #808080;
 	padding-top: 109px;
 }
 .footer h3 {
 	margin: 20px 20px 40px 0;
 	padding-bottom: 20px;
-	color: #fff;
+	color: #FFFFFF;
 	text-transform: uppercase;
-	border-bottom: 1px solid #DCDCDC;
+	border-bottom: 1px solid #808080;
 }
 .footer h3 a {
-	color: #fff;
+	color: #FFFFFF;
 	text-decoration: none;
 }
 .footer li {
