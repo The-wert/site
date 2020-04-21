@@ -77,6 +77,11 @@ strong {
 .btn-grey:hover {
 	background-color: #676767;
 }
+.btn-grey:hover {
+	width: 215px;
+	color: #fff;
+	background-color: #222;
+}
 /*Гибкая верстка*/
 .col-1 {
     flex: 1;
@@ -96,11 +101,7 @@ strong {
 .col-6 {
     flex: 6;
 }
-.btn-grey:hover {
-	width: 215px;
-	color: #fff;
-	background-color: #222;
-}
+
 /*Гибкий дизайн*/
 @media(max-width: 1200px) {
 	.container{
@@ -159,16 +160,16 @@ header li a {
 	align-items: center;
 }
 /*Основное содержимое свайта*/
-.moon-tour {
-	flex: 1 0 auto;
-	flex-wrap: wrap;
-	background-color: #222;
-	padding: 30px 0;
+.moon {
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+    background-color: #;
+    padding: 30px 0;
 }
-.moon-and-rocket-header {
-	width: 300px;
-	margin: 0 5vw;
-	padding: 68px 0;
+.moon-header {
+    width: 300px
+    marding: 0 5vw;
+    padding: 60px 0;
 }
 .moon-tour h1 {
 	margin: 40px 0;
@@ -190,6 +191,18 @@ header li a {
 	max-width: 438px;
 	margin: 30px 0;
 }
+.moon-tour {
+	flex: 1 0 auto;
+	flex-wrap: wrap;
+	background-color: #222;
+	padding: 30px 0;
+}
+.moon-and-rocket-header {
+	width: 300px;
+	margin: 0 5vw;
+	padding: 68px 0;
+}
+
 .advantages {
 	flex: 1 0 auto;
 	padding: 55px 0 85px 0;
