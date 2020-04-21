@@ -24,7 +24,7 @@ body {
     flex-direction: row;
 }
 .column {
-    flex-direction: column;
+    flex-direction: column
 }
 strong {
 	font-weight: bold;
@@ -39,7 +39,7 @@ strong {
 	display: flex;
 	width: 195px;
 	padding: 0 25px;
-	font-family: Verdana, sans-serif;
+	font-family: Verdana,sans-serif;
 	font-weight: bold;
 	font-size: lem;
 	line-height: 50px;
