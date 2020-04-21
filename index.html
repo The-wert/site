@@ -2,84 +2,144 @@
 <html lang="ru">
     <head>
         <!--<link rel="stylesheet" href="/site/style/outline.css"><!--Впременные стили для сайта-->
-        <title>Мой первый проект</title>
-        <meta charset="utf-8">
+        <title>Полет на луну</title>
         <meta name="description" content="">
-        <meta name="keywords" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/site/style/main.css">
-        <!--Временные стили для работы с сегкой сайта -->
-        <!-- <link rel="stylesheet"href="/site/style/outline.css"> -->
-        <link rel="stylesheet" href="/site/style/space.css">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial=scale=1">
+		<link rel="stylesheet" href="/site/style/space.css">
     </head>
     <body>
         <header>
             <div class="container">
-                <div class="col-1">
-                    <li></li>
-                    <!--Здесь будет логотип сайта  -->
-                    <a href="#"><img class="logo" src="" alt="logo" title="Главная"></a>
-                    <a href="Название" class="buttonw"></a>
-                    <img src="/images/logo.png"alt="logo"title="Логотип">
-                <div class="col-3">
-                    <nav>
-                       <ul class="row">
-							<li><a href="#">Пункт 1</a></li>
-							<li><a href="#">Пункт 2</a></li>
-							<li><a href="#">Пункт 3</a></li>
-						</ul>
-                    </nav>
-                </div>
-                <div class="col-1">
-                    <a href="#" class="button">Кнопка</a>
-                </div>
-            </div>
-        </header>
-        <main>
-            <div class="container">
-				<aside class="col-1">
+				<div class="col-1">
+					<!--Логотип в шапке-->
+					<a href="#"><img class="logo" src="/site/images/logo.png" alt="logo" title="Главная"></a>
+				</div>
+				<div class="col-6">
 					<nav>
-						<ul class="column">
-							<il><a href="#">Заголовок 1</a></il>
-							<il><a href="#">Заголовок 2</a></il>
-							<il><a href="#">Заголовок 3</a></il>
+						<ul class="row">
+							<!--Пункты навигационного меню-->
+							<li><a href="#">Компания</a></li>
+							<li><a href="#">Каталог</a></li>
+							<li><a href="#">Контакты</a></li>
 						</ul>
-					</nav>
-				</aside>
-                <section class="col-3">
-					<h1>Заголовок 1</h1>
-					<h2>Заголовок 2</h2>
-					<h3>Заголовок 3</h3>
-				</section>
-                <aside class="col-1"></aside>
-            </div>
-        </main>
-        <footer><!-- Низ сайта -->
-            <div class="container">
-                <div class="col-1">
-                    <!-- Тоже что и вверху -->
-                    <a href="#"><img class="logo" src="" alt="logo" title="Главная"></a>
-                </div>
-                <div class="col-4">
-                    <nav class="row">
-                        <ul class="column">
-                            <il><a href="#">Пункт 4</a></il>
-							<il><a href="#">Пункт 5</a></il>
-							<il><a href="#">Пункт 6</a></il>
-						</ul>
-						<ul class="column">
-							<il><a href="#">Пункт 7</a></il>
-							<il><a href="#">Пункт 8</a></il>
-							<il><a href="#">Пункт 9</a></il>
-						</ul>
-						<ul class="column">
-							<il><a href="#">Пункт 10</a></il>
-							<il><a href="#">Пункт 11</a></il>
-							<il><a href="#">Пункт 12</a></il>
-                        </ul>
                     </nav>
                 </div>
-            </div>
-        </footer>
-    </body>
+				<div class="col-1 header-contacts"><!--Иконки почты и телефона, или по другому, средств связи-->
+					<a href="#"><img src="/site/images/mail-icon.png" alt="mail" title="Почта"></a>
+					<a href="#"><img src="/site/images/phone-icon.png" alt="phone" title="Телефон"></a>
+				</div>
+			</div>
+		</header>
+		<section class="moon-tour">
+			<div class="container">
+				<div class="col-1">
+					<div class="moon-and-rocket-header">
+						<h1>На луну и обратно</h1>
+						<p>Космический крутой туризм.<br>
+						Пакетные и индивидуальные турыпо лучшим планетам галактики.</p>
+						<a href="#" class="btn btn-yellow">подбор тура</a>
+					</div>
+				</div>
+				<div class="col-1 moon-and-rocket">
+						<img src="/site/images/moon-roсket.png" alt="moon and roсket" title="На луну и обратно">
+				</div>
+			</div>
+		</section>
+		<section class="advantages">
+			<div class="container">
+				<div class="block">
+					<div class="col-1 block-item">
+						<img src="/site/images/advantage-icon-1.png" alt="roсket" title="Ракеты">
+						<p>Комфортабельные ракеты отечественного производства.</p>
+					</div>
+					<div class="col-1 block-item">
+						<img src="/site/images/advantage-icon-2.png" alt="tube" title="Космическая еда">
+						<p>Вкусное и полезное космическое питание на борту.</p>
+					</div>
+				</div>
+				<div class="block">
+					<div class="col-1 block-item">
+						<img src="/site/images/advantage-icon-3.png" alt="cosmonaut" title="Космонафты">
+						<p>Весь состав пилотов состоит из бывших космонафтов.</p>
+					</div>
+					<div class="col-1 block-item">
+						<img src="/site/images/advantage-icon-4.png" alt="flag" title="Освоение космоса">
+						<p>Экскурсии на луноходе на Море Ярости и Океан Бурь.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="content">
+			<div class="container column">
+				<div class="block">
+					<div class="col-1 left-column">
+						<img src="/site/images/map.jpg" alt="map" title="Карта">
+					</div>
+					<div class="col-1 right-column">
+						<h2>Надоело летать в отпуск за гранцу? а как насчет того, чтобы слетать на Луну?</h2>
+						<p>Устали от пакетных туров и пляжого отдыха? Палатенца и магнитики, которые вы привозите с отпуска уже не радуют ваших близких? В следующий раз привезите им насоящий лунный камень!</p>
+						<p>Мы предлогаем иновационную услугу на турористическом рынке - коссмический туризм (пока только на Луну, сейчас решаем вопросы с визовым центром Венеры).</p>
+						<p>Берите отпуск и отправляйтесь с нами в полет, он займет всего 72 часа!</p>
+					</div>
+				</div>
+				<div class="col-1 block">
+					<div class="col-1 left-column">
+						<h2>Не забудте взять с собой:</h2>
+						<ul>
+							<li><strong>Паспорт.</strong> Визовый режим пока не введен, но на границе будет досмотр.</li>
+							<li><strong>Тяжелые ботинки.</strong> Пригодятся вам в условиях низкой гравитации на луне.</li>
+							<li><strong>Криптовалюта.</strong> Рекомендуем заранее обменять немного Лун-коинов, чтобы купить сувениры.</li>
+						</ul>
+					</div>
+					<div class="col-1 right-column">
+						<h2>Это лучше оставить дома:</h2>
+						<ul>
+							<li><strong>Телефон.</strong> В коссмосе не ловит ваш любимый мобильный оператор и нет Wi-Fi.</li>
+							<li><strong>Бутерброды.</strong> На борту будет питание, которое не разлетиться по кабине в условиях невисомости.</li>
+							<li><strong>Плавки/купальник.</strong> Море Ярости и Океан Бурь это большие краторы. Без воды.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="block">
+					<div class="col-1">
+						<a href="#"><img class="logo" src="/site/images/logo.png" alt="logo" title="Главная"></a>
+						<spane>Space Z</spane>
+						<p class="copyright">ООО&laquo;Космос Зэ&raquo;.<br>
+						Все права защищены.</p>
+					</div>
+					<div class="col-1">
+						<h3><a herf="#">Компания</a></h3>
+						<ul>
+							<a href="#"><li>История</li></a>
+							<a href="#"><li>Миссия</li></a>
+							<a href="#"><li>Команда</li></a>
+						</ul>
+					</div>
+				</div>
+				<div class="block">
+					<div class="col-1">
+						<h3><a herf="#">каталог</a></h3>
+						<ul>
+							<a href="#"><li>Полеты</li></a>
+							<a href="#"><li>Проживание</li></a>
+							<a href="#"><li>Экскурси</li></a>
+						</ul>
+					</div>
+					<div class="col-1">
+						<h3><a herf="#">Контакты</a></h3>
+						<ul>
+							<a href="#"><li>Отправить заявку</li></a>
+							<a href="#"><li>Схема проезда</li></a>
+							<a href="#"><li>Время работы</li></a>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
